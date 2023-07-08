@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, h6, p, a{
   color: white;
   line-height: 1.5em;
 }
+a{
+  text-decoration: none;
+}
 
 .container{
   width: 90%;
@@ -26,21 +29,41 @@ nav > .logo{
   height: 16px;
   margin-left: auto;
 }
-nav > a{
+.nav-link{
+  font-size: 16px;
   font-weight: 200;
+  color: rgb(168, 168, 168);
+}
+.nav-link.active{
+  color: white;
 }
 
 .hero{
   color: white;
   margin-bottom: 75px;
 }
-.hero > .info{
+.hero > .title{
   font-size: 26px;
   font-weight: 200;
+  margin-bottom: 15px;
+}
+.hero > .subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.hero > .profile{
+  font-size: 16px;
+  font-weight: 400;
   margin-bottom: 30px;
 }
 
+.projects{
+  margin-bottom: 50px;
+}
 .projects > .title{
+  font-size: 16px;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 .projects > .grid{
@@ -52,6 +75,13 @@ nav > a{
   background-color: rgb(53, 53, 53);
   height: 120px;
   border-radius: 10px;
+}
+
+.contact{
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 520px) {
