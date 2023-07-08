@@ -1,0 +1,22 @@
+body{
+  background-color: #131313;
+  font-family: 'Epilogue', sans-serif;
+  color: white;
+}
+
+.container{
+  width: 95%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 50px 0;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+nav > a{
+  color: white;
+  font-weight: 200;
+}
