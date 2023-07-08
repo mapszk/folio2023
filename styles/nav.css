@@ -1,0 +1,47 @@
+body{
+  background-color: #131313;
+  font-family: 'Epilogue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+  color: white;
+  line-height: 1.5em;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+  
+nav{
+  padding: 10px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  .logo{
+    height: 16px;
+    margin-left: auto;
+  }
+  .nav-link{
+    font-size: 16px;
+    font-weight: 200;
+    color: gray;
+    &.active{
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 520px) {
+  nav{
+    padding: 50px 0;
+    margin-bottom: 0px;
+  }
+}

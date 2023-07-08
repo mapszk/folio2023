@@ -1,0 +1,19 @@
+.experience{
+  margin-bottom: 50px;
+  .subtitle{
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    /* border-bottom: 1px solid rgb(53,53,53); */
+  }
+  .job{
+    margin-bottom: 20px;
+    .title{
+      margin-bottom: 10px;
+    }
+    .body{
+      font-weight: 200;
+      color: lightgray;
+    }
+  }
+}

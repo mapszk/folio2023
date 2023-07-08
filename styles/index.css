@@ -1,0 +1,53 @@
+.hero{
+  color: white;
+  margin-bottom: 75px;
+  .title{
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    color: lightgray;
+  }
+  .subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .profile{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+}
+
+.projects{
+  margin-bottom: 50px;
+  .title{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    .item{
+      background-color: rgb(53, 53, 53);
+      height: 120px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.contact{
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 520px) {
+  .projects > .grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
