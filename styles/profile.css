@@ -4,7 +4,6 @@
     font-size: 20px;
     padding-bottom: 5px;
     margin-bottom: 15px;
-    /* border-bottom: 1px solid rgb(53,53,53); */
   }
   .job{
     margin-bottom: 20px;
@@ -14,6 +13,25 @@
     .body{
       font-weight: 200;
       color: lightgray;
+    }
+  }
+}
+
+.contacts{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  .link{
+    display: flex;
+    .title{
+      display: block;
+      font-weight: 200;
+      color: lightgray;
+    }
+    .icon{
+      margin-left: 4px;
+      width: 16px;
+      opacity: 0.5;
     }
   }
 }
