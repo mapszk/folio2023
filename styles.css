@@ -1,22 +1,66 @@
 body{
   background-color: #131313;
   font-family: 'Epilogue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
   color: white;
+  line-height: 1.5em;
 }
 
 .container{
-  width: 95%;
-  max-width: 720px;
+  width: 90%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 nav{
-  padding: 50px 0;
+  padding: 10px 0;
   margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
+  align-items: center;
   gap: 15px;
 }
+nav > .logo{
+  height: 16px;
+  margin-left: auto;
+}
 nav > a{
-  color: white;
   font-weight: 200;
+}
+
+.hero{
+  color: white;
+  margin-bottom: 75px;
+}
+.hero > .info{
+  font-size: 26px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.projects > .title{
+  margin-bottom: 15px;
+}
+.projects > .grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.projects > .grid > .item{
+  background-color: rgb(53, 53, 53);
+  height: 120px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 520px) {
+  nav{
+    padding: 50px 0;
+    margin-bottom: 0px;
+  }
+  .projects > .grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
