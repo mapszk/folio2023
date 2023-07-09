@@ -3,13 +3,13 @@
   margin-bottom: 75px;
   .title{
     font-size: 26px;
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 15px;
-    color: lightgray;
+    color: white;
   }
   .subtitle{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 25px;
   }
   .about-me{

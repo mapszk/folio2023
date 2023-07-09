@@ -39,6 +39,22 @@ nav{
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 520px) {
   nav{
     padding: 50px 0;
