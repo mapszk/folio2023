@@ -8,7 +8,15 @@
   .job{
     margin-bottom: 20px;
     .title{
+      display: flex;
+      align-items: center;
       margin-bottom: 10px;
+      .years{
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 1px;
+        color: gray;
+      }
     }
     .body{
       font-weight: 200;

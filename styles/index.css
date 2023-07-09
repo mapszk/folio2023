@@ -12,10 +12,18 @@
     font-weight: 400;
     margin-bottom: 25px;
   }
-  .profile{
-    font-size: 16px;
-    font-weight: 400;
+  .about-me{
+    display: flex;
+    align-items: center;
     margin-bottom: 30px;
+    .icon{
+      width: 16px;
+      margin-left: 4px;
+    }
+    .text{
+      font-size: 16px;
+      font-weight: 400;
+    }
   }
 }
 
@@ -26,14 +34,28 @@
     font-weight: 400;
     margin-bottom: 15px;
   }
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    .item{
-      background-color: rgb(53, 53, 53);
+  .work{
+    margin-bottom: 30px;
+    .image-container{
+      display: block;
+      margin-bottom: 10px;
       height: 120px;
-      border-radius: 10px;
+      .image{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+    .info{
+      .name{
+        margin-bottom: 10px;
+      }
+      .detail{
+        font-weight: 200;
+        font-size: 16px;
+        color: lightgray;
+      }
     }
   }
 }
@@ -45,9 +67,16 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 520px) {
-  .projects > .grid{
-    grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 600px){
+  .work{
+    display: flex;
     gap: 20px;
+    .image-container{
+      height: 40px;
+      flex: 2;
+    }
+    .info{
+      flex: 3;
+    }
   }
 }
