@@ -24,10 +24,6 @@ nav{
   display: flex;
   align-items: center;
   gap: 15px;
-  #logo-animation{
-    width: 35px;
-    margin-left: auto;
-  }
   .nav-link{
     font-size: 16px;
     font-weight: 200;
@@ -37,6 +33,11 @@ nav{
       color: white;
     }
   }
+}
+
+#logo-animation{
+  width: 35px;
+  margin-left: auto;
 }
 
 /* width */
